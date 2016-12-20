@@ -1,0 +1,77 @@
+
+<head style="position:relative;width:100%;height:100%;"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head >
+<h1>
+  <app-navbar></app-navbar>
+  <!--<span class="label label-default" id="labell">{{title}}</span>-->
+</h1>
+
+
+
+
+
+ 
+  <!--<div id="div1">-->
+     <div class="col-sm-4" id="div1">    
+    <ul class="idd">
+     
+      <label for="PresentValue"><div class="col-sm-4"><span id = "PresentValueLabel">Present Value: </span></div></label>
+      <input type="text" class="form-control" id="PresentValue" [(ngModel)]="PresentValue"  />
+      
+     
+    </ul>
+    <br>
+    <ul class="idd1">
+       
+      <label for="PresentValue"><div class="col-sm-4"><span  id = "PresentValueLabel">Interes Rate: </span></div></label>
+      <input type="text" class="form-control" id="PresentValue" [(ngModel)]="InteresRate"  />
+      
+    </ul>
+    <br>
+    <ul class="idd1">
+      
+      <label for="PresentValue"><div class="col-sm-4"><span  id="PresentValueLabel">Period: </span></div></label>
+      <input type="text" class="form-control" id="PresentValue"  [(ngModel)]="Period" />
+      
+    </ul>
+
+    <br>
+    <ul class = "idd1">
+      <input type="submit" class="btn btn-primary" id="CalculateButton" value="Calculate" (click)="listele()" />
+    </ul>
+
+   <ul class="idd2">
+  <label for="Grid"><span  class = "GridLabel"></span></label>
+  <table class="table table-hover" id="Grid">
+    <thead class="GridLabel">
+      <tr>
+        <th>Total Payment</th>
+        <th>Interest</th>
+        <th>Principle</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+
+    <tbody  *ngIf="allPayment" >
+      <tr class="tt" *ngFor="let p of allPayment">
+        <td>{{p.Payment}}</td>
+        <td>{{p.Interest}}</td>
+        <td>{{p.Principle}}</td>
+        <td>{{p.DueDate  | date:'medium'}}</td>
+      </tr>
+
+     
+    </tbody>
+  </table>
+    </ul>
+    </div>
+  
+  <!--</div>-->
+
+
+
+
+
+ <footer class="footer"></footer>
+
+<!-- style="width:180px;height:40px;margin: 10px 50px 20px 550px;" -->

@@ -1,0 +1,189 @@
+ 
+#PresentValue
+{
+    width:180px;
+    height:40px;
+    
+    border: 0px solid #f7f7f7;
+    border-radius: 90px 90px 0px 133px;
+    border-color:none;
+    box-shadow: none;   
+}
+
+#PresentValue:focus  {
+    color:none;
+    border-color:none;
+    box-shadow: none;
+    text-shadow: none;
+    box-shadow: 1px 2px 7px 1px rgba(235,157,148,1);
+}
+
+.form-control
+{
+    color:none;
+    border-color:none;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+#PresentValueLabel
+{
+    font-size:18px;
+    width:90px;height:50px;
+    top:90px;
+    color: #D0E1F9;
+    font-style: italic;
+    white-space: nowrap;
+    
+}
+
+ul.idd
+{
+    
+    margin: 100px 50px 20px 50px;
+}
+
+ul.idd1
+{
+     
+    margin: 10px 50px 20px 50px;
+
+}
+
+ul.idd2
+{
+   
+     position:absolute;
+     bottom:380px;
+     margin-bottom:0px;
+     margin-left:700px;
+     
+    
+}
+
+#div1
+{
+     background-size: cover; background-position: center center;
+      position: relative;
+     visibility: inherit;
+     margin-right:1px;
+     background-color:#283655;
+     width:100%;
+     height: 200%; 
+     /*margin: 10px 100px 100px 240px;*/
+     
+     border: 5px solid #4D648D;
+}
+/*c0392b   #d14b3e;*/
+.content
+{
+     
+     margin-right:100px;
+     background-color:#E66C5E;
+     width:90%;
+     height: 80%; 
+     margin: 10px 100px 100px 350px;
+     border-radius:28%;
+     border: 16px solid #e39991;
+}
+
+#labell
+{
+    
+    size:50px;
+    width:40px;
+    height:30px;
+    color:#e68981;
+    background-color: white;
+    margin: 60px 100px 100px 680px;
+}
+
+footer.footer
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 66px 30px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-top: 1px solid #d8dadc;
+    /*background-image: url('C:\Users\Deneme\PaymentManagement\3388-Winston-Churchill-Quote-You-will-never-reach-your-destination-if.jpg');*/
+    /*background-image: url("http://www.fitwell.com.tr/wp-content/uploads/2015/05/1600x334xpromo-01.jpg.pagespeed.ic.CGk4l2ZqES.webp");*/
+    background-image: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg");
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+    
+}
+
+#CalculateButton
+{
+    background-color: rgba(235,157,148,1);
+    color: #F34A4A;
+    border-radius: 17px 200px 200px 184px;
+    border-color: rgba(235,157,148,1);
+    font-size: medium;
+    font-style: normal;
+    width:100px;
+    height:50px;
+}
+
+#CalculateButton:focus
+{
+
+    outline: 0px;
+    transition: 0.3s ease;
+    transform: rotate(360deg);
+    
+}
+
+
+
+#CalculateButton:hover
+{
+   
+    /*transform: scale(1.2);*/
+     
+    font-size: large;
+    transition: 0.3s ease;
+    text-decoration-style: inherit;
+    font-weight: bolder;
+
+}
+
+.GridLabel
+{
+    font-size:20px;
+    width:90px;height:50px;
+    font-style: italic;
+    color:#D0E1F9;
+    
+    
+}
+
+.tt:hover
+{
+    
+    font-size: x-large;
+    background-color: #e6a59f;
+    
+}
+
+.tt
+{
+    
+    white-space: nowrap;
+   font-size: medium;
+    color: #e3665b;
+     transition: all 0.2s ease;
+    font-weight: bold;
+}
+

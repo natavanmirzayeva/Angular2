@@ -1,0 +1,24 @@
+#nav
+{
+    float: left;
+   
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+    background-color:#4D648D;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color:  #e68981;
+    
+}
+
+.navHeader
+{
+    font-size:22px;
+    width:90px;height:50px;
+    top:90px;
+    color: #D0E1F9;
+    font-style: normal;
+    
+}
